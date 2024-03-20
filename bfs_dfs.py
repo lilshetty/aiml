@@ -58,9 +58,3 @@ if __name__ == '__main__':
 
     print("DFS: ", g.dfs(start_node, end_node))
     print("BFS: ", g.bfs(start_node, end_node))
-
-    
-
-
-
-        
