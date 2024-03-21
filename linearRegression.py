@@ -15,7 +15,7 @@ x_train, x_test, y_train, y_test = train_test_split(x,y,test_size=0.3)
 lireg = LinearRegression()
 lireg.fit(x_train, y_train)
 
-data = {'age':60, 'bmi':23, 'children':5, 'smoker':0, "region":4}
+data = {'age':60, 'bmi':23, 'children':5, 'smoker':0, 'region':4}
 index=[0]
 
 cust_df = pd.DataFrame(data, index)
