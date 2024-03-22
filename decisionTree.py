@@ -81,7 +81,7 @@ def classify(root, new):
             else:
                 classify(child.children[0], new)
 
-data = pd.read_csv("PlayTennis.csv")
+data = pd.read_csv("tennis.csv")
 
 features = list(data.columns)
 features.remove("play")
